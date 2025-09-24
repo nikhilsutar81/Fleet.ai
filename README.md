@@ -5,7 +5,7 @@
 AI-Powered Content Generation at Your Fingertips
 
 # LIVE DEMO 
-🔗https://https://fleetai-saas.vercel.app
+🔗https://fleetai-saas.vercel.app
 
 </div>
 
