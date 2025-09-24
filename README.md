@@ -1,145 +1,120 @@
 <div align="center">
 
-# Fleet.ai ⚡
+# ⚡ Fleet.ai  
+### *AI-Powered Content Generation at Your Fingertips*  
 
-AI-Powered Content Generation at Your Fingertips
-
-# LIVE DEMO 
-🔗https://fleetai-saas.vercel.app
+[![Live Demo](https://img.shields.io/badge/demo-live-green?style=for-the-badge&logo=vercel)](https://fleetai-saas.vercel.app)  
+[![Made with React](https://img.shields.io/badge/frontend-react_19-61dafb?style=for-the-badge&logo=react)](#tech-stack)  
+[![Node.js](https://img.shields.io/badge/backend-node.js_20-43853d?style=for-the-badge&logo=node.js)](#tech-stack)  
+[![PostgreSQL](https://img.shields.io/badge/database-postgresql-336791?style=for-the-badge&logo=postgresql)](#tech-stack)  
+[![OpenAI](https://img.shields.io/badge/AI-OpenAI-412991?style=for-the-badge&logo=openai)](#ai-capabilities)  
 
 </div>
 
 ---
 
-## Table of Contents
+## 📖 Table of Contents  
 
-- Overview
-- Key Features
-- Tech Stack
-- Architecture
-- Environment Variables
-- AI Capabilities
-- API Endpoints
-- Deployment
+- [Overview](#-overview)  
+- [Key Features](#-key-features)  
+- [Tech Stack](#-tech-stack)  
+- [Architecture](#-architecture)  
+- [Environment Variables](#-environment-variables)  
+- [AI Capabilities](#-ai-capabilities)  
+- [API Endpoints](#-api-endpoints)  
+- [Deployment](#-deployment)  
+- [Screenshots](#-screenshots)  
+- [Contributing](#-contributing)  
 
 
-## Overview
+## 🚀 Overview  
 
-QUICKAI is a comprehensive AI SaaS platform that provides:
+**Fleet.ai** is a modern **AI SaaS platform** built with the **PERN stack** and powered by **OpenAI + cutting-edge APIs**. It’s designed to make creativity effortless with AI tools for:  
 
-- 🎨 AI Image Generation and Editing
-- 📝 Intelligent Content Creation
-- 📄 Resume Review and Optimization
-- 🖼️ Background Removal and Object Removal
-- ✍️ Article and Blog Title Generation
-- 👥 Community Sharing Features
+- 🎨 Image generation & editing  
+- 📝 Intelligent content creation  
+- 📄 Resume review & optimization  
+- 🖼️ Background & object removal  
+- ✍️ Blog title generation  
+- 👥 Community sharing  
 
-Built with the PERN stack (PostgreSQL, Express, React, Node.js) and integrated with OpenAI's powerful AI models.
-
----
-
-## Key Features
-
-### 🤖 AI-Powered Tools
-- **Generate Images**: Create stunning visuals from text prompts
-- **Remove Background**: Automatic background removal from images
-- **Remove Objects**: Clean up images by removing unwanted objects
-- **Write Articles**: AI-assisted article writing
-- **Blog Titles**: Generate engaging blog post titles
-- **Review Resume**: AI-powered resume analysis and suggestions
-
-### 👤 User Experience
-- **Secure Authentication**: Powered by Clerk
-- **Dashboard**: Central hub for all AI tools
-- **Community**: Share and discover creations
-- **Responsive Design**: Works on all devices
-- **Real-time Processing**: Instant AI results
-
-### 🛡️ Enterprise Grade
-- **Secure File Uploads**: Cloudinary integration
-- **PDF Processing**: Resume analysis from PDF files
-- **Scalable Architecture**: Ready for high traffic
-- **API First**: RESTful API design
 
 ---
 
-## Tech Stack
+## ✨ Key Features  
 
-### Frontend (Client)
-- **React 19** - Latest React with concurrent features
-- **Vite** - Next-generation build tool
-- **Tailwind CSS** - Utility-first CSS framework
-- **Axios** - HTTP client for API calls
-- **React Router DOM** - Client-side routing
-- **Lucide React** - Beautiful icons
-- **React Hot Toast** - Notifications
-- **React Markdown** - Markdown rendering
-- **Clerk** - Authentication and user management
+### 🤖 AI-Powered Tools  
+- Generate images from text prompts  
+- Remove backgrounds & unwanted objects  
+- AI-assisted article & blog writing  
+- SEO-friendly blog titles  
+- Resume analysis & suggestions  
 
-### Backend (Server)
-- **Node.js** - JavaScript runtime
-- **Express 5** - Web framework for Node.js
-- **PostgreSQL** - Relational database (via Neon)
-- **OpenAI API** - AI model integration
-- **Cloudinary** - Image and file management
-- **Multer** - File upload handling
-- **CORS** - Cross-origin resource sharing
-- **PDF-Parse** - PDF text extraction
+### 👤 User Experience  
+- 🔑 Secure authentication via **Clerk**  
+- 📊 Centralized dashboard  
+- 🌐 Community sharing hub  
+- 📱 Responsive design (mobile-first)  
+- ⚡ Real-time AI processing  
 
-### DevOps & Deployment
-- **Vercel** - Frontend deployment
-- **Neon** - PostgreSQL hosting
-- **Cloudinary** - Media CDN
-- **Clerk** - Authentication service
+### 🛡️ Enterprise-Grade  
+- ☁️ Cloudinary for secure file uploads & CDN  
+- 📄 PDF resume parsing  
+- 📈 Scalable backend with PostgreSQL (Neon)  
+- 🧩 API-first architecture 
 
 ---
 
-## Architecture
+## 🛠️ Tech Stack  
 
-```json
+### Frontend  
+- **React 19** + **Vite**  
+- **Tailwind CSS**  
+- **React Router DOM**  
+- **Axios**  
+- **Lucide React** (icons)  
+- **React Hot Toast** (notifications)  
+- **Clerk** (authentication)  
+
+### Backend  
+- **Node.js + Express 5**  
+- **PostgreSQL (Neon)**  
+- **OpenAI API / Gemini API / ClipDrop**  
+- **Cloudinary** (media handling)  
+- **Multer, PDF-Parse, CORS**  
+
+### Deployment  
+- **Vercel** (frontend & backend)  
+- **Neon** (database hosting)  
+- **Cloudinary** (media CDN)  
+- **Clerk** (auth service) 
+
+---
+
+## 🏗️ Architecture  
+
+```bash
 QuickAI/
 ├── client/                 # React Frontend
 │   ├── src/
 │   │   ├── assets/        # Static assets
 │   │   ├── components/    # Reusable components
-│   │   │   ├── AITools.jsx
-│   │   │   ├── CreationItem.jsx
-│   │   │   ├── Footer.jsx
-│   │   │   ├── Hero.jsx
-│   │   │   ├── Navbar.jsx
-│   │   │   ├── Plan.jsx
-│   │   │   ├── Sidebar.jsx
-│   │   │   └── Testimonial.jsx
 │   │   ├── pages/         # Route pages
-│   │   │   ├── BlogTitles.jsx
-│   │   │   ├── Community.jsx
-│   │   │   ├── Dashboard.jsx
-│   │   │   ├── GenerateImages.jsx
-│   │   │   ├── Home.jsx
-│   │   │   ├── Layout.jsx
-│   │   │   ├── RemoveBackground.jsx
-│   │   │   ├── RemoveObject.jsx
-│   │   │   ├── ReviewResume.jsx
-│   │   │   └── WriteArticle.jsx
-│   │   └── ...           # Config files
+│   │   └── ...
 │
 ├── server/                # Express Backend
-│   ├── configs/          # Configuration files
-│   │   ├── cloudinary.js # Cloudinary config
-│   │   ├── db.js         # Database config
-│   │   └── multer.js     # File upload config
+│   ├── configs/          # Cloudinary, DB, multer
 │   ├── controllers/      # Business logic
-│   │   ├── aiController.js
-│   │   └── userController.js
-│   ├── middlewares/      # Custom middlewares
-│   │   └── auth.js
+│   ├── middlewares/      # Auth middleware
 │   ├── routes/           # API routes
-│   │   ├── aiRoutes.js
-│   │   └── userRoutes.js
-│   └── server.js         # Server entry point
+│   └── server.js         # Entry point
 
 ```
-### Environment Variables
+
+---
+
+## ⚙️ Environment Variables
+
 
 **Client (.env)**
 ```
@@ -160,29 +135,14 @@ GEMINI_API_KEY=
 CLIPDROP_API_KEY=
 ```
 
+---
 
-## AI Capabilities
+## 🧠 AI Capabilities
 
-### 🎨 Image Generation
-- Text-to-image conversion using DALL-E
-- Customizable image styles and sizes
-- High-resolution output
-
-### 🖼️ Image Editing
-- Background removal with precision
-- Object removal and cleanup
-- Batch processing support
-
-### 📝 Content Creation
-- Article writing with tone control
-- Blog title generation
-- SEO optimization suggestions
-
-### 📄 Document Processing
-- Resume analysis and scoring
-- Skills gap identification
-- Improvement recommendations
-- PDF text extraction
+- Image Generation → Text-to-image with DALL·E
+- Image Editing → Background & object removal
+- Content Creation → Articles, blogs, SEO titles
+- Document Processing → Resume review, scoring & skills gap analysis
 
 ---
 
@@ -217,6 +177,23 @@ Deploy with environment variables configured for:
 - Cloudinary credentials
 - Clerk secrets
 
+---
+
+## 📸 Screenshots
+Dashboard
+<img width="1879" height="918" alt="Fleet.ai Screenshot" src="https://github.com/user-attachments/assets/1fe2c198-c9b1-4289-ab47-47b9175b2d59" />
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! 🎉
+- Fork the repo
+- Create a feature branch (git checkout -b feature-xyz)
+- Commit changes (git commit -m "Added xyz feature")
+- Push & open a PR
+
+---
 
 <div align="center">
 
