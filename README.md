@@ -5,7 +5,7 @@
 AI-Powered Content Generation at Your Fingertips
 
 # LIVE DEMO 
-[_LINK 🔗_](https://https://fleetai-saas.vercel.app)
+🔗https://https://fleetai-saas.vercel.app
 
 </div>
 
@@ -210,18 +210,12 @@ CLIPDROP_API_KEY=
 
 ## Deployment
 
-### Frontend (Vercel)
-[![Deploy with Vercel](https://https://fleetai-saas.vercel.app)]
-
-### Backend (Render/Vercel)
+### Backend (Vercel)
 Deploy with environment variables configured for:
 - Neon PostgreSQL database
 - GEMINI API keys
 - Cloudinary credentials
 - Clerk secrets
-
-### Database (Neon)
-# Recommended: Neon PostgreSQL
 
 
 <div align="center">
