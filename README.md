@@ -108,31 +108,6 @@ QuickAI/
 │   ├── middlewares/      # Auth middleware
 │   ├── routes/           # API routes
 │   └── server.js         # Entry point
-
-```
-
----
-
-## ⚙️ Environment Variables
-
-
-**Client (.env)**
-```
-VITE_CLERK_PUBLISHABLE_KEY=pk_test_Z2xvd2luZy1tYXN0b2Rvbi04Ny5jbGVyay5hY2NvdW50cy5kZXYk
-VITE_BASE_URL=http://localhost:3000
-```
-
-**Server (.env)**
-```
-CLOUDINARY_CLOUD_NAME= djkrwlwkr
-CLOUDINARY_API_KEY= 751688764292381
-CLOUDINARY_API_SECRET= wA5VxsIGMgxZeN2FgKVDY3Fhdzg
-PORT=3000
-DATABASE_URL= 'postgresql://neondb_owner:npg_jTULAnWYK0h6@ep-dark-bonus-a804djp0-pooler.eastus2.azure.neon.tech/neondb?sslmode=require&channel_binding=require'
-CLERK_PUBLISHABLE_KEY=pk_test_Z2xvd2luZy1tYXN0b2Rvbi04Ny5jbGVyay5hY2NvdW50cy5kZXYk
-CLERK_SECRET_KEY=sk_test_snf7XT31O1axpMifgJZPGYwos3IXgPyTJ0CWBOIajx
-GEMINI_API_KEY=AIzaSyCBq5YnJuT7f8bLIhAmVASdEfsyTHow8j0
-CLIPDROP_API_KEY=75004965a6a293880ad6cd38d06f527b072dd816ef60443f4266169de5ff9bc91cc3f7cdb2c5db5a9a5334463044c052
 ```
 
 ---
