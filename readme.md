@@ -25,8 +25,6 @@ AI-Powered Content Generation at Your Fingertips
 
 ## Overview
 
-QUICKAI is a comprehensive AI SaaS platform that provides:
-
 - 🎨 AI Image Generation and Editing
 - 📝 Intelligent Content Creation
 - 📄 Resume Review and Optimization
